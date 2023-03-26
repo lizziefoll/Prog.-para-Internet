@@ -31,13 +31,13 @@ a /*modificar os links da lista*/{
     color: inherit;/*deixa a cor original da fonte*/
 }
 
-h1{
+h1{ /*muda a cor e o tamanho do h1*/
     color: #FF616D;
     font-size: 2rem;
 }
 
 
-p{
+p{ /*muda a cor e o tamanho do p*/
     color: black; 
     font-size: 25px;
 }
@@ -57,13 +57,13 @@ header{
     height: calc(100vh - 150px);
 }
 
-header nav /*arruma o header na posição desejada*/{
+header nav /*arruma o header na posição desejada */{
     display: flex;
     justify-content: space-between;
     margin: auto 150px;
 }
 
-header nav p{
+header nav p{ 
     font-weight: bold;
 }
 
@@ -91,7 +91,7 @@ header nav ul li{ /*deixa um espaço na lista*/
     padding: 15px;
 }
 
-.pacotes .pacotes-cards { 
+.pacotes .pacotes-cards {  /*pacotes - muda o tamanho*/
     display: flex;
     margin: auto;
     max-width: 950px;
@@ -99,14 +99,14 @@ header nav ul li{ /*deixa um espaço na lista*/
     justify-content: center;
 }
 
-.pacotes .pacotes-title{ /*muda o titulo da class pacotes*/
+.pacotes .pacotes-title{ /*pacotes - muda o tamanho do titulo*/
     width: 100%;
     text-align: center;
     margin: 25px 0;
 
 }
 
-.pacotes .card { /**/
+.pacotes .card { /*pacotes - muda o tamanho e a cor*/
     width: 250px;
     height: 440px;
     background: white;
@@ -122,11 +122,13 @@ header nav ul li{ /*deixa um espaço na lista*/
     object-fit: cover;
 }
 
-.pacotes .card-content{
+/*icones - https://feathericons.com/ */
+
+.pacotes .card-content{ /*pacotes - muda a distância entre o elemento e as bordas da página*/
     padding: 0 15px;
 }
 
-.pacotes .card-content ul{
+.pacotes .card-content ul{ /*pacotes - muda os ícones e a escrita do wifi, café e pet friendly*/
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -147,11 +149,11 @@ header nav ul li{ /*deixa um espaço na lista*/
     margin-right: 10px;
 }
 
-.pacotes .card-content h1{  
+.pacotes .card-content h1{   /*pacotes - tamanho da fonte h1: Pacote 5 noites Hotel Premium - Hotel Sidney*/
     font-size: 1rem;
 }
 
-.pacotes .card .card-tag-top { /*arruma a parte PROMOÇÃO*/
+.pacotes .card .card-tag-top { /*arruma a parte pacotes*/
     position: absolute;
     right: 0;
     top: 15px;
@@ -185,7 +187,7 @@ header nav ul li{ /*deixa um espaço na lista*/
     margin: 35px 0;
 }
 
-.servicos .servicos-cards{ 
+.servicos .servicos-cards{ /*serviços - muda o tamanho e posição dos elementos de serviço*/
     margin-top: 25px;
     display: flex;
     max-width: 950px;
@@ -194,7 +196,7 @@ header nav ul li{ /*deixa um espaço na lista*/
     flex-wrap: wrap;
 }
 
-.servicos .card{   
+.servicos .card{   /*serviços - muda o tamamho dos elementos de serviços (os desenhos de wifi, café etc)*/
     width: 250px;
     display: flex;
     flex-direction: column;
