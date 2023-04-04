@@ -1,0 +1,15 @@
+/*https://getbootstrap.com/docs/5.0/getting-started/introduction/*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: black;
+    color: white;
+}
+
+#img-topo{
+    background: white;
+}
